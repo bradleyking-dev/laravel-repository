@@ -30,7 +30,7 @@
         "orchestra/testbench": "^6.7.0",
         "watson/rememberable": "^5.0.1",
         "astrotomic/laravel-translatable": "^11.8",
-        "BradleyKingDev/laravel-listify": "^1.1|^2.0"
+        "czim/laravel-listify": "^1.1|^2.0"
     },
     "autoload": {
         "psr-4": {
