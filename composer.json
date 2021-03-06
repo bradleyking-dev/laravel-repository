@@ -1,0 +1,57 @@
+{
+    "name": "bradleykingdev/laravel-repository",
+    "description": "Repository for Laravel",
+    "keywords": [
+        "laravel",
+        "repository",
+        "repositories",
+        "eloquent",
+        "database",
+        "criteria"
+    ],
+    "homepage": "https://github.com/BradleyKingDev/laravel-repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bradley King",
+            "email": "contact@bradley-king.com",
+            "homepage": "https://www.bradley-king.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.2|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0",
+        "myclabs/php-enum": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^8.0|^9.0",
+        "orchestra/testbench": "^6.7.0",
+        "watson/rememberable": "^5.0.1",
+        "astrotomic/laravel-translatable": "^11.8",
+        "BradleyKingDev/laravel-listify": "^1.1|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BradleyKingDev\\Repository\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BradleyKingDev\\Repository\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BradleyKingDev\\Repository\\RepositoryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
