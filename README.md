@@ -1,16 +1,6 @@
 # Laravel Repository
 
 [![Latest Stable Version](http://img.shields.io/packagist/v/BradleyKingDev/laravel-repository.svg)](https://packagist.org/packages/BradleyKingDev/laravel-repository)
-## Version Compatibility
-
- Laravel      | Package
-:-------------|:--------
- 5.1          | 1.0
- 5.2          | 1.2
- 5.3          | 1.2
- 5.4 to 5.8   | 1.4
- 6.0          | 2.0
- 7.0, 8.0     | 2.1
 
 ## Install
 
