@@ -154,22 +154,22 @@ interface BaseRepositoryInterface
     /**
      * Updates a model by $id
      *
-     * @param array  $data
      * @param        $id
+     * @param array  $data
      * @param string $attribute
      * @return bool  false if could not find model or not succesful in updating
      */
-    public function update(array $data, $id, $attribute = null);
+    public function update($id, array $data, $attribute = null);
 
     /**
      * Finds and fills a model by id, without persisting changes
      *
-     * @param  array  $data
      * @param  mixed  $id
+     * @param  array  $data
      * @param  string $attribute
      * @return Model|false
      */
-    public function fill(array $data, $id, $attribute = null);
+    public function fill($id, array $data, $attribute = null);
 
     /**
      * Deletes a model by $id
